@@ -61,14 +61,14 @@ for ( let i = 0; i < nums.length; i++) {
    let log;
    do {
       log = prompt("Введите логин");
-   } while (mass.includes(log) != true);
+   } while (!mass.includes(log));
   console.log('Вы ввели логин из массива');
 
   // Задача №5
    let massLog = ["Xodahe", "Gixath", "Qexeme", "Bolyky", "Fifiwu"];
    let login;
    login = prompt("Введите логин");
-   while (massLog.includes(login) == true) {
+   while (massLog.includes(login)) {
       console.log('Этот логин уже существует');
       login = prompt("Введите логин");
    }
