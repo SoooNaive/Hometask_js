@@ -5,7 +5,7 @@ function productFsorm(count) {
    if (count % 10 > 1 && count % 10 < 5) return "Товара";
    return "Товаров";
 }
-console.log(productFsorm(67));
+console.log(productFsorm(11));
 
 // Задача №2
 let min = parseInt(prompt("Введите минимум"));

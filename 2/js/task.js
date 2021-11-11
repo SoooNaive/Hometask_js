@@ -2,27 +2,27 @@
 // Задача №1
 let count = 85;
 if (count <= 100 && count >= 90) {
-	console.log("Отлично");
+   console.log("Отлично");
 } else if (count <= 89 && count >= 60) {
-	console.log("Хорошо");
+   console.log("Хорошо");
 } else if (count <= 59 && count >= 40) {
-	console.log("Удовлетворительно");
+   console.log("Удовлетворительно");
 } else if (count <=39 && count >=0) {
-	console.log("Попробуйте еще раз");
+   console.log("Попробуйте еще раз");
 } else {
-	console.log("Ошибка ввода");
+   console.log("Ошибка ввода");
 }
 // Задача №2
 let i = parseInt(prompt("Введите число"));
 let ii = parseInt(prompt("Введите число"));
 let iii = prompt("Введите оператор");
 switch (iii) {
-	case '+':
-	    console.log( i + ii);
-	     break;
-	case '-':
-	    console.log( i - ii);
-	     break;
+   case '+':
+       console.log( i + ii);
+        break;
+   case '-':
+       console.log( i - ii);
+        break;
     case '*':
         console.log( i * ii);
          break;
@@ -36,18 +36,18 @@ switch (iii) {
 let t = parseInt(prompt("Введите колличество тарелок"));
 let m = parseInt(prompt("Введите колличество моющего средства"));
 while (t >= 0 && m >= 0) {
-	console.log(m);
-	t--;
-	m -= 0.5;
-		if (t === 0) {
-	    console.log("Тарелки закончились");
-	    console.log(m);
-	    break;
-	}
+   console.log(m);
+   t--;
+   m -= 0.5;
+      if (t === 0) {
+       console.log("Тарелки закончились");
+       console.log(m);
+       break;
+   }
     if (m === 0) {
-    	console.log("Моющее средство закончилось");
-    	console.log(t);
-    	break;
+      console.log("Моющее средство закончилось");
+      console.log(t);
+      break;
     }
 }
 // Задача №4
@@ -94,3 +94,4 @@ if (a === 0) {
       break;
   }
 }
+
