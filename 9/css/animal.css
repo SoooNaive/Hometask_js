@@ -1,0 +1,17 @@
+.info {
+	border: 1px solid #FFC0CB;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.main {
+	width: 300px;
+	margin: 0 auto;
+
+}
+
+.info p {
+	color: #800080;
+}
