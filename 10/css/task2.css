@@ -1,0 +1,23 @@
+.item_title {
+    text-decoration: none;
+}
+
+.item__image {
+    width: 50vw;
+    height: auto;
+    object-fit: cover;
+}
+.cards-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card {
+    flex: 20%;
+}
+
+.card__image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
