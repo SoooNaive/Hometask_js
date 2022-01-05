@@ -1,0 +1,87 @@
+html {
+    background-color: #FFF0F5;
+}
+
+form {
+    width: 700px;
+}
+
+.link {
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+    color: #696969;
+}
+
+.link:hover {
+    color: #000000;
+}
+
+input {
+    display: block;
+}
+
+#taskData {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+
+#taskData > label {
+    font-size: 20px;
+}
+
+#addButton {
+    width: 500px;
+    margin: 20px auto;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.button {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#successMessage {
+    color: green;
+    font-size: 1rem;
+}
+
+#taskParticipants {
+    margin: 10px 0;
+}
+
+.participant {
+    width: 200px;
+    margin: 10px 10px 0 0;
+    display: inline-block;
+}
+
+.partInput {
+    display: inline-block;
+    width: 150px;
+    height: 1rem;
+}
+
+.partDelete {
+    display: inline-block;
+    width: 20px;
+    line-height: 1rem;
+    padding: 2px;
+    text-align: center;
+    height: 1rem;
+}
+
+.message {
+    font-size: 0.8rem;
+    visibility: hidden;
+}
+
+.active {
+    visibility: visible;
+}
+
+.error {
+    color: red;
+}
